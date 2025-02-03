@@ -34,7 +34,7 @@ function mergeArr(ip, low, mid, high) {
 
 console.log('**************** \n');
 console.log('Merge Sort');
-console.log('Time complexity---O(n^2)');
+console.log('Time complexity---O(N log  N)');
 const ip = [5, 1, 7, 3, 2];
 console.log('Before ----->', ip);
 const result = implMergeSort(ip, 0, ip.length - 1);
